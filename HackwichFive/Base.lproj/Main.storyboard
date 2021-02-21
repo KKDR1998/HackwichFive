@@ -30,6 +30,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bcS-7o-n7h"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uQg-GD-PjG">
                                 <rect key="frame" x="45" y="145" width="324" height="69"/>
@@ -44,6 +47,7 @@
                     </view>
                     <connections>
                         <outlet property="bottomLabel" destination="yM2-zW-pgo" id="ZHb-AL-dsM"/>
+                        <outlet property="buttonLabel" destination="0id-uX-YEo" id="mEu-JZ-gQc"/>
                         <outlet property="topLabel" destination="uQg-GD-PjG" id="A3n-wG-Btm"/>
                     </connections>
                 </viewController>
